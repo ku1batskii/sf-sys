@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Кейсы — Безопасные Системы</title>
+  <meta name="description" content="Реальные задачи из практики IT-обслуживания офисов: миграции, внедрения, переход от других подрядчиков, инциденты и их решения.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Inter+Tight:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <nav class="nav">
+        <a href="index.html" class="brand">
+          <span class="brand-mark"></span>
+          <span>Безопасные&nbsp;Системы</span>
+        </a>
+        <ul class="nav-links">
+          <li><a href="services.html">Услуги</a></li>
+          <li><a href="cases.html" class="active">Кейсы</a></li>
+          <li><a href="about.html">О компании</a></li>
+          <li><a href="contact.html">Контакты</a></li>
+        </ul>
+        <a href="contact.html" class="nav-cta">Получить разбор</a>
+        <button class="nav-toggle" aria-label="Меню"><span></span></button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- PAGE HERO -->
+
+  <section class="page-hero">
+    <div class="container">
+      <div class="page-hero-inner">
+        <div class="eyebrow">
+          <span class="eyebrow-dot"></span>
+          Работа на практике
+        </div>
+        <h1>Кейсы и результаты</h1>
+        <p class="hero-lede" style="margin-top: 24px;">
+          Большинство задач наших клиентов под NDA, но типовые ситуации — повторяются.
+          Ниже — сценарии из практики последних двух лет: с задачей, решением и измеримым результатом.
+          Названия заменены, цифры реальные.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- KEY NUMBERS -->
+
+  <section class="metrics">
+    <div class="container">
+      <div class="metrics-grid">
+        <div class="metric">
+          <div class="metric-value">[__]</div>
+          <div class="metric-label">Активных клиентов<br>на обслуживании</div>
+        </div>
+        <div class="metric">
+          <div class="metric-value">[__]<span class="unit">ПК</span></div>
+          <div class="metric-label">В едином контуре<br>мониторинга</div>
+        </div>
+        <div class="metric">
+          <div class="metric-value">[__]<span class="unit">лет</span></div>
+          <div class="metric-label">Средний срок<br>работы с клиентом</div>
+        </div>
+        <div class="metric">
+          <div class="metric-value">[__]<span class="unit">%</span></div>
+          <div class="metric-label">Заявок закрыто<br>в рамках SLA</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CASES -->
+
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-tag">Типовые сценарии</span>
+        <h2>Шесть ситуаций, с которыми приходят клиенты</h2>
+      </div>
+
+```
+  <div class="cases-grid">
+    <article class="case">
+      <div class="case-meta">Переход от подрядчика</div>
+      <h3>«Предыдущий подрядчик пропадал на сутки»</h3>
+      <p class="case-desc">
+        Торговая компания, [__] рабочих мест. Заявки теряли, SLA не измерялся.
+        За 10 дней: аудит, миграция в наш helpdesk, закреплённый инженер.
+        Через месяц — среднее время реакции упало с нескольких часов до 12 минут.
+      </p>
+      <div class="case-numbers">
+        <div class="case-num">
+          <div class="case-num-value">10<span style="font-size: 0.5em; color: var(--graphite);">дней</span></div>
+          <div class="case-num-label">полный переход</div>
+        </div>
+        <div class="case-num">
+          <div class="case-num-value">−[__]%</div>
+          <div class="case-num-label">время реакции</div>
+        </div>
+      </div>
+    </article>
+
+    <article class="case">
+      <div class="case-meta">Миграция инфраструктуры</div>
+      <h3>Перенос серверов без остановки бизнеса</h3>
+      <p class="case-desc">
+        Компания со сменным графиком, 1С-база в центре процессов.
+        Миграция на новую серверную площадку в ночное окно, три контрольных точки,
+        план отката. Клиент вышел утром без единого сбоя.
+      </p>
+      <div class="case-numbers">
+        <div class="case-num">
+          <div class="case-num-value">0<span style="font-size: 0.5em; color: var(--graphite);">мин</span></div>
+          <div class="case-num-label">простоя</div>
+        </div>
+        <div class="case-num">
+          <div class="case-num-value">[__]<span style="font-size: 0.5em; color: var(--graphite);">ТБ</span></div>
+          <div class="case-num-label">данных перенесено</div>
+        </div>
+      </div>
+    </article>
+
+    <article class="case">
+      <div class="case-meta">Внедрение</div>
+      <h3>Видеонаблюдение и СКУД на сети объектов</h3>
+      <p class="case-desc">
+        Развёртывание системы на [__] точках в Москве и области.
+        Централизованная запись, интеграция с учётом рабочего времени,
+        регламентное ТО. Одна точка ответственности по всему проекту.
+      </p>
+      <div class="case-numbers">
+        <div class="case-num">
+          <div class="case-num-value">[__]</div>
+          <div class="case-num-label">объектов</div>
+        </div>
+        <div class="case-num">
+          <div class="case-num-value">[__]<span style="font-size: 0.5em; color: var(--graphite);">кам</span></div>
+          <div class="case-num-label">в сети</div>
+        </div>
+      </div>
+    </article>
+
+    <article class="case">
+      <div class="case-meta">Инцидент</div>
+      <h3>Шифровальщик в сети клиента</h3>
+      <p class="case-desc">
+        Обнаружение на раннем этапе благодаря мониторингу, изоляция заражённого сегмента,
+        восстановление из резервной копии. Работа офиса была прервана на [__] часов
+        вместо возможных суток. Провели разбор и доработали регламенты доступа.
+      </p>
+      <div class="case-numbers">
+        <div class="case-num">
+          <div class="case-num-value">[__]<span style="font-size: 0.5em; color: var(--graphite);">ч</span></div>
+          <div class="case-num-label">до восстановления</div>
+        </div>
+        <div class="case-num">
+          <div class="case-num-value">0</div>
+          <div class="case-num-label">потерянных данных</div>
+        </div>
+      </div>
+    </article>
+
+    <article class="case">
+      <div class="case-meta">Телефония</div>
+      <h3>Переход на Asterisk с экономией на связи</h3>
+      <p class="case-desc">
+        Отказ от проприетарной АТС в пользу Asterisk. Интеграция с CRM,
+        запись разговоров, отчёты. Снижение расходов на связь и получение
+        контроля над инфраструктурой, которого не было раньше.
+      </p>
+      <div class="case-numbers">
+        <div class="case-num">
+          <div class="case-num-value">−[__]%</div>
+          <div class="case-num-label">расходов на связь</div>
+        </div>
+        <div class="case-num">
+          <div class="case-num-value">[__]</div>
+          <div class="case-num-label">сотрудников подключено</div>
+        </div>
+      </div>
+    </article>
+
+    <article class="case">
+      <div class="case-meta">Рост клиента</div>
+      <h3>Масштабирование с 30 до 120 рабочих мест</h3>
+      <p class="case-desc">
+        Клиент вырос в 4 раза за 18 месяцев. Инфраструктура масштабировалась
+        планово: сеть, серверы, helpdesk, регламенты. Абонентская плата росла
+        пропорционально рабочим местам, без скачков и авралов.
+      </p>
+      <div class="case-numbers">
+        <div class="case-num">
+          <div class="case-num-value">4×</div>
+          <div class="case-num-label">рост инфраструктуры</div>
+        </div>
+        <div class="case-num">
+          <div class="case-num-value">0</div>
+          <div class="case-num-label">дней простоя при масштабировании</div>
+        </div>
+      </div>
+    </article>
+  </div>
+</div>
+```
+
+  </section>
+
+  <!-- INDUSTRIES -->
+
+  <section class="section" style="background: var(--cream);">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-tag">Отрасли</span>
+        <h2>С какими типами бизнеса мы работаем чаще всего</h2>
+        <p class="section-lede">
+          Не берёмся за всё подряд. Фокус — средний офисный бизнес в Москве,
+          где IT является рабочим инструментом, а не продуктом.
+        </p>
+      </div>
+
+```
+  <div class="principles-grid">
+    <div class="principle">
+      <div class="principle-num">·</div>
+      <h3>Торговля и логистика</h3>
+      <p>1С, WMS, торговое оборудование, обмен с маркетплейсами. Зона, где IT-сбой превращается в невыполненный заказ в ту же минуту.</p>
+    </div>
+    <div class="principle">
+      <div class="principle-num">·</div>
+      <h3>Производство и строительство</h3>
+      <p>Офисные и полевые подразделения, распределённые сети, спецсистемы, видеонаблюдение на площадках.</p>
+    </div>
+    <div class="principle">
+      <div class="principle-num">·</div>
+      <h3>Финансовые и юридические услуги</h3>
+      <p>Высокие требования к безопасности и непрерывности. Именно здесь наш банковский опыт применяется напрямую.</p>
+    </div>
+    <div class="principle">
+      <div class="principle-num">·</div>
+      <h3>Медицина и образование</h3>
+      <p>Регламентированные среды, специализированное ПО, особые требования к бесперебойности работы.</p>
+    </div>
+  </div>
+</div>
+```
+
+  </section>
+
+  <!-- CTA -->
+
+  <section class="section">
+    <div class="container">
+      <div class="cta-block">
+        <h2>Ваш случай скорее всего не уникальный — и это хорошо</h2>
+        <p>
+          Если то, что происходит у вас, знакомо нам по трём-четырём клиентам —
+          это означает, что у нас уже есть отработанное решение. Расскажите о ситуации,
+          мы покажем, как её решали раньше.
+        </p>
+        <a href="contact.html" class="btn btn-primary">
+          Обсудить вашу ситуацию
+          <span class="btn-arrow"></span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a href="index.html" class="brand">
+            <span class="brand-mark"></span>
+            <span>Безопасные Системы</span>
+          </a>
+          <p class="footer-desc">
+            IT-обслуживание офисов в Москве. Банковский подход к надёжности,
+            фиксированный SLA, прозрачная работа с заявками.
+          </p>
+        </div>
+        <div class="footer-col">
+          <h5>Сайт</h5>
+          <ul>
+            <li><a href="services.html">Услуги</a></li>
+            <li><a href="cases.html">Кейсы</a></li>
+            <li><a href="about.html">О компании</a></li>
+            <li><a href="contact.html">Контакты</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Направления</h5>
+          <ul>
+            <li><a href="services.html#outsource">IT-аутсорсинг</a></li>
+            <li><a href="services.html#1c">Сопровождение 1С</a></li>
+            <li><a href="services.html#telephony">IP-телефония</a></li>
+            <li><a href="services.html#cctv">Видеонаблюдение</a></li>
+            <li><a href="services.html#infra">Серверная инфраструктура</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Контакты</h5>
+          <ul>
+            <li><a href="tel:[CLIENT: телефон]">[CLIENT: телефон]</a></li>
+            <li><a href="mailto:[CLIENT: email]">[CLIENT: email]</a></li>
+            <li>Москва, [CLIENT: адрес]</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© [CLIENT: год] ООО «Безопасные Системы». ОГРН [CLIENT: ОГРН]</span>
+        <span>Сделано с вниманием к надёжности</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+
+</body>
+</html>
